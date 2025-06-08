@@ -70,7 +70,7 @@ export const SequenceAlignment: React.FC = () => {
         }}
       >
         {[...sequence].map((char, index) => {
-          const isDifferent = !isTop && char !== sequence[index];
+          const isDifferent = !isTop && alignment && char !== alignment.seq1[index];
           return (
             <Box
               key={index}
