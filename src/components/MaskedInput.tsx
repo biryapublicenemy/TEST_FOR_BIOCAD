@@ -1,7 +1,7 @@
 import React from 'react';
 import { Input, InputLabel, FormControl, FormHelperText } from '@mui/material';
 import type { InputProps } from '@mui/material';
-import { AMINO_ACIDS, type AminoAcid } from '../types/aminoAcids';
+import { AMINO_ACIDS, type AminoAcid } from '../types/aminoAcids.ts';
 
 interface MaskedInputProps extends Omit<InputProps, 'onChange'> {
   onChange?: (value: string) => void;

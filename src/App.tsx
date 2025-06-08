@@ -1,5 +1,6 @@
 import { ThemeProvider, createTheme, CssBaseline, Container, Typography } from '@mui/material';
-import { SequenceAlignment } from './components/SequenceAlignment';
+import { SequenceAlignment } from './components/SequenceAlignment.tsx';
+import React from 'react';
 
 const theme = createTheme({
   palette: {
@@ -17,7 +18,6 @@ const theme = createTheme({
 });
 
 function App() {
-  console.log('App');
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />

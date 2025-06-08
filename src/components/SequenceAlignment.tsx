@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useForm, Controller } from 'react-hook-form';
 import { Button, Box, Typography, Paper, Snackbar, Alert } from '@mui/material';
-import { type AminoAcid, AMINO_ACID_COLORS, isValidAminoAcid } from '../types/aminoAcids';
-import { MaskedInput } from './MaskedInput';
+import { type AminoAcid, AMINO_ACID_COLORS, isValidAminoAcid } from '../types/aminoAcids.ts';
+import { MaskedInput } from './MaskedInput.tsx';
 
 interface FormInputs {
   sequence1: string;
