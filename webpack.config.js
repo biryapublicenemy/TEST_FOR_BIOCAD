@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.tsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: 'index.tsx',
     publicPath: '/TEST_FOR_BIOCAD/',
   },
   resolve: {
@@ -33,6 +33,7 @@ module.exports = {
       template: './src/index.html',
       filename: 'index.html',
       inject: true,
+      minify: false,
     }),
   ],
 };
