@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.tsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'index.tsx',
+    filename: 'bundle.js',
     publicPath: '/TEST_FOR_BIOCAD/',
   },
   resolve: {
